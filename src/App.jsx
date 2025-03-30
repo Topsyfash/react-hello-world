@@ -1,12 +1,14 @@
-import './App.css'
+import "./App.css";
+import Counter from "./Counter";
 
 function App() {
+  
 
   return (
-    <>
-      <h1 className='heading'>Hello World</h1>
-    </>
-  )
+    <div className="app">
+      <Counter/>
+    </div>
+  );
 }
 
-export default App
+export default App;
